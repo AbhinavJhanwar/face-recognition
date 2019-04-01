@@ -1,0 +1,16 @@
+{
+ "base_dir":"SavedModels/",
+ "yolo_model_cfg":"SavedModels/yolov3-face.cfg",
+ "yolo_model_weights":"SavedModels/yolov3-wider_16000.weights",
+ "resnet_modelFile":"SavedModels/res10_300x300_ssd_iter_140000.caffemodel",
+ "resnet_model_cfg":"SavedModels/deploy.prototxt.txt",
+ "nms_threshold":0.3,
+ "yolo_conf_threshold":0.7,
+ "resnet_conf_threshold":0.4,
+ "margin_percent":10,
+ "classifier_threshold":0.8,
+ "knn_distance_threshold":0.39,
+ "knn_distance_threshold_margin":0.12,
+ "faceDetector":"yolo",
+ "user_images":"ImageDataAugmentation/augmentedData"
+}

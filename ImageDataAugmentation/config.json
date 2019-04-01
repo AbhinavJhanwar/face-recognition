@@ -1,0 +1,20 @@
+{
+    "rotation_range":0,
+    "width_shift_range":0.2,
+    "height_shift_range":0.2,
+    "brightness_range":[0, 2.0],
+    "shear_range":5,
+    "zoom_range":0.2,
+    "channel_shift_range":5,
+    "fill_mode":"nearest",
+    "horizontal_flip":"True",
+    "vertical_flip":"False",
+    "rescale":0,
+    "color_mode":"rgb",
+    "class_mode":"categorical",
+    "shuffle":"False",
+    "directory":"../raw_data/",
+    "save_to_dir":"augmentedData",
+    "save_format":"jpg",
+    "augmentBy":20
+}

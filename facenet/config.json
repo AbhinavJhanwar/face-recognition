@@ -1,0 +1,13 @@
+{
+ "raw_data":"known_people",
+ "processed_data":"aligned_data",
+ "model_cfg":"yolov3-face.cfg",
+ "model_weights":"yolov3-wider_16000.weights",
+ "margin": 64,
+ "img_size":160,
+ "nms_threshold":0.3,
+ "yolo_conf_threshold":0.7,
+ "classes":"classes.pickle",
+ "base_dir":"",
+ "svm_threshold":0.4
+}

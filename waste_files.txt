@@ -1,0 +1,13 @@
+Images which are not suitable for training are-
+fastSavedModels/augmentedData\2002\2002_2.jpg
+fastSavedModels/augmentedData\2002\2002_3.jpg
+fastSavedModels/augmentedData\2002\_0_243116.jpg
+fastSavedModels/augmentedData\2002\_0_3336228.jpg
+fastSavedModels/augmentedData\2002\_0_425453.jpg
+fastSavedModels/augmentedData\2002\_0_9909043.jpg
+fastSavedModels/augmentedData\2002\_1_1335222.jpg
+fastSavedModels/augmentedData\2002\_1_1711625.jpg
+fastSavedModels/augmentedData\2002\_1_3252197.jpg
+fastSavedModels/augmentedData\2002\_1_8817016.jpg
+fastSavedModels/augmentedData\2002\_1_985350.jpg
+fastSavedModels/augmentedData\2002\_2_940337.jpg

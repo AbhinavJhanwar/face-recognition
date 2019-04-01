@@ -1,0 +1,11 @@
+{
+ "base_dir":"SavedModels/",
+ "model_cfg":"SavedModels/yolov3-face.cfg",
+ "model_weights":"SavedModels/yolov3-wider_16000.weights",
+ "ip_user_images":"ImageDataAugmentation/augmentedData",
+ "nms_threshold":0.1,
+ "yolo_conf_threshold":0.7,
+ "margin_percent":10,
+ "resnet_model":"SavedModels/res10_300x300_ssd_iter_140000.caffemodel",
+ "resnet_cfg":"SavedModels/deploy.prototxt.txt"
+}

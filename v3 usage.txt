@@ -1,0 +1,4 @@
+1) run 'Real_Time_Face_Recognition_training_knn_V3.py' --> generate face encodings and face names
+2) run 'Real_Time_Face_Recognition_training_knn_V3.py' --> train knn model
+3) run 'faceDetection_V3.py' --> generate distance_thresholds for testing
+4) run 'webcamFaceDetection.py' --> start face recognition
