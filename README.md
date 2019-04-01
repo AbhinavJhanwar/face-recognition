@@ -60,13 +60,11 @@ Face recognition findings-
 1) Clone repository
 2) Create folder data
 3) Add folders with images of persons to be trained inside data folder as following-
-	a) Suppose persons to be trained are 'David' and 'Smith'
-	b) Create two folders with names 'David' and 'Smith'
-	c) Add all images of 'David' in folder 'David' and all images of 'Smith' in folder 'Smith'
-2) open 'config_training.json' file and update the following configuration-
-	a) "user_images" : "data/"
-3) open anaconda command prompt
-4) run command: 'python Real_Time_Face_Recognition_OOBS.py'
+	1) Suppose persons to be trained are 'David' and 'Smith'
+	2) Create two folders with names 'David' and 'Smith'
+	3) Add all images of 'David' in folder 'David' and all images of 'Smith' in folder 'Smith'
+4) open anaconda command prompt
+5) run command: 'python Real_Time_Face_Recognition_OOBS.py'
 
 
 ##################################################################################
