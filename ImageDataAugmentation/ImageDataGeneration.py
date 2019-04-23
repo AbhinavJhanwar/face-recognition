@@ -41,6 +41,7 @@ class imageDataAugmentation:
         for name in dirs:
             if name not in os.listdir(config['save_to_dir']):
                 names.append(name)
+        
         print('[INFO] generating data for following images -\n', names)
         
         for name in tqdm(names):
@@ -69,6 +70,17 @@ class imageDataAugmentation:
                     )
                 
             for i in tqdm(range(config['augmentBy'])):
+                generator = self.datagen.flow_from_directory(
+                        directory = config['save_to_dir'],  # this is the image folders directory
+                        target_size=(img.height, img.width),  # all images will be resized to size of actual images
+                        color_mode=config["color_mode"],
+                        class_mode=config["class_mode"],
+                        batch_size=len(os.listdir(os.path.join(config['save_to_dir'], name))),
+                        shuffle=strtobool(config["shuffle"]),
+                        save_to_dir=os.path.join(config["save_to_dir"],name),
+                        save_format=config["save_format"],
+                        classes=[name]
+                        )
                 next(generator)
                
 if __name__=="__main__":

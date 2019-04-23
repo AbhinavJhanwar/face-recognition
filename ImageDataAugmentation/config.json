@@ -16,5 +16,5 @@
     "directory":"../raw_data/",
     "save_to_dir":"augmentedData",
     "save_format":"jpg",
-    "augmentBy":20
+    "augmentBy":5
 }
